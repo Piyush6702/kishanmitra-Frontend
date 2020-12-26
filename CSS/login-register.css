@@ -19,12 +19,7 @@ body {
   height: max-content;
   background: rgba(20, 50, 58, 0.664);
   color: #fff;
-  /* top: 50%;
-  left: 50%;
-  position: absolute;
-  transform: translate(-50%, -50%); */
   box-sizing: border-box;
-  /* padding: 70px 30px; */
   border-radius: 10px;
   padding: 10px;
   margin: 10px auto;
@@ -91,9 +86,13 @@ input[type="password"] {
   height: 40px;
   background: #1c8adb;
   color: white;
-  font-size: 20px;
+  font-size: 23px;
+  text-align: center;
+  padding-bottom: 35px;
   border-radius: 20px;
 }
+
+
 .login-box input[type="submit"]:hover {
   cursor: pointer;
   background: #57b4f7;
@@ -113,6 +112,27 @@ input[type="password"] {
   color: rgb(255, 255, 255);
   font-size: 1.1rem;
   /* font-style: italic; */
+}
+
+.remember{
+  text-align: center;
+}
+.remember .second-last{
+  color: rgb(243, 243, 250);
+  margin-top: 10px;
+  font-size: 15px;
+}
+.remember .last{
+  color: rgb(243, 243, 250);
+  
+  font-size: 15px;
+}
+.remember a{
+  color: rgb(152, 211, 97);
+}
+.remember span{
+  color:white;
+  font-size: 1rem;
 }
 
 /* Registration css */
