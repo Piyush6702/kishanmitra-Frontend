@@ -101,8 +101,8 @@ html {
 
 .nav-bar ul {
   display: grid;
-  grid-template-columns: repeat(auto-fit,280px);
-  grid-gap: 3px 10px;
+  grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+  grid-gap:  10px;
   justify-self: center;
   justify-content: space-evenly;
   align-self: stretch;
@@ -127,7 +127,7 @@ html {
   transform: scale(1.04);
   transition: all 0.6s ease-in-out;
 }
-.nav-item a {
+.nav-bar a {
   text-decoration: none;
   color: rgb(0, 0, 0);
   font-weight: bold;
