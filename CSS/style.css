@@ -405,7 +405,9 @@ html {
 
 
 /* ==============================Media Query ============================== */
-
+.service-box{
+  height: 80%;
+}
 
 @media  (max-width:1265px){
   .nav-bar ul{
