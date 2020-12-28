@@ -389,6 +389,7 @@ h3 {
 .active-post,
 .suspended-post {
   display: flex;
+  flex-wrap: wrap;
   padding: 10px;
   justify-content: center;
   align-items: center;

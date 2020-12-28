@@ -301,3 +301,166 @@
     margin: 10px;
 
 }
+
+
+
+
+/* =====================Media Query================ */
+
+@media screen and (max-width:768px){
+    .benefit-items img{
+        max-width: 30%;
+
+
+    }
+
+}
+
+
+@media screen and (max-width:600px){
+    .benefit-items img{
+        max-width: 35%;
+        margin: 5px;
+
+    }
+    .benefit-details p {
+        font-size: 14px;
+        /* margin-bottom: 10px; */
+    }
+
+    .benefit-details {
+        padding: 10px;
+        width: 60%;
+        height: 100%;
+        margin: 3px;
+    }
+
+
+}
+
+@media screen and (max-width:520px){
+
+    .hr-small-1 {
+        width: 20%;
+    }
+
+
+    #s-heading{
+        font-size: 2rem;
+
+    }
+
+    .our-journey p {
+        font-size: 1rem;
+
+
+    }
+    .benefit-details h2 {
+        font-size: 1.6rem;
+        margin-right: 10px;
+    }
+    .benefit-items {
+        position: relative;
+        display: block;
+        flex-direction: column;
+
+    }
+
+    .benefit-items img{
+        position: absolute;
+        top: 3px;
+        right: 10px;
+        width: 25%;
+        height: auto;
+        margin: 0px 0px;
+
+    }
+
+    .benefit-details{
+        width: 90%;
+    }
+
+    .benefit-details p{
+        margin-top: 25px;
+    }
+}
+
+
+@media screen and (max-width:430px){
+    .about-intro h1 {
+        font-size: 2rem;
+
+    }
+
+    .about-intro p {
+        font-size: 1rem;
+        text-align: center;
+
+    }
+
+    #s-heading{
+        font-size: 1.5rem;
+    }
+
+    #team-intro{
+        font-size: 1.1rem;
+    }
+
+}
+
+@media screen and (max-width:380px){
+    .about-intro h1 {
+        font-size: 2rem;
+
+    }
+
+    .benefit-details h2{
+        font-size: 1.2rem;
+        margin-right: 20px;
+    }
+
+    
+    .benefit-items img{
+        position: absolute;
+        top: 3px;
+        right: 10px;
+        width: 30%;
+        /* height: 20%; */
+        margin: 5px 0px;
+
+    }
+
+    .benefit-details p{
+        /* width: 100%; */
+        /* font-size: 1rem; */
+    }
+
+    #team-intro {
+        font-size: 1rem;
+    }
+
+    .team {
+   
+        width: 90%;
+    }
+
+    .team-member {
+        width: 100%;
+        height: max-content;
+        display: flex;
+        flex-direction: column;
+        /* border: 1px solid; */
+        margin: 15px;
+        /* padding: 1px 1px; */
+        
+    }
+
+    .member-identity h3{
+        font-size:1.3rem;
+
+    }
+
+}
+
+
+
