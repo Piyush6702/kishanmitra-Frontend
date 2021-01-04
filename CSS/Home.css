@@ -19,12 +19,6 @@
   background-repeat: no-repeat;
 }
 
-/* .intro-left {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-} */
 
 .intro-left h2 {
   font-weight: bold;
@@ -74,70 +68,97 @@
 }
 
 .post {
-  /* border: 2px solid red; */
+  /* border: 1px solid red; */
   margin: 10px 0px;
   display: flex;
   height: auto;
 }
 
 .post .cards {
-  border: 1px solid blue;
+  border: 2px solid blue;
   margin: 10px;
   height: 300px;
   box-sizing: border-box;
   width: 40%;
   position: relative;
-  border-radius: 5px;
+  border-radius: 8px;
 }
 
 .cards::before {
   position: absolute;
   content: "";
   background: url("../img/bg-2.jpg") center center/cover;
-  /* background-color: antiquewhite; */
   height: 100%;
   width: 100%;
   z-index: -1;
   opacity: 0.6;
-  /* background-repeat: no-repeat; */
   overflow: hidden;
 }
 
-.post .content {
-  /* border: 3px solid green; */
-  place-items: center;
-  padding-left: 20px;
-  padding-top: 10px;
+
+.section1{
+  display: flex;
+  /* border: 1px solid yellow; */
   margin-top: 100px;
+}
+
+.section1 .left{
+  /* border: 1px solid green; */
+  font-family: var(--font-3);
+  background-color: rgb(226, 167, 147);
+  box-sizing: border-box;
+  margin: 10px 15px;
+  box-shadow: 3px 3px 4px green;
+  padding: 10px 24px;
+  font-weight: bold;
+  border-radius: 15px;
+  font-size: 1.1rem;
+}
+.section1 .right{
+  /* border: 1px solid green; */
+  font-family: var(--font-3);
+  background-color:rgb(226, 167, 147);
+  box-sizing: border-box;
+  margin: 10px ;
+  padding: 10px 30px;
+  font-weight: bold;
+  border-radius: 15px;
+
+  box-shadow: 3px 3px 4px green;
+  font-size: 1.1rem;
+}
+.sub{
+  margin: 0;
+}
+
+.section2{
+  /* border: 1px solid black; */
+  /* width: 100%; */
   height: auto;
-}
-.content .price {
-  /* border: 3px solid rgb(217, 255, 0); */
+  text-align: center;
   margin: 10px;
-  border-radius: 5px;
 }
 
-.post .cards th {
-  /* border: 2px solid black; */
-  box-shadow: 2px 2px 2px yellow;
-  margin-left: 5px;
-  background-color: rgb(27, 27, 124);
-  outline: none;
-  color: white;
-  font-family: var(--font-3);
-  padding: 10px;
+.section2 .edit{
+  /* border: 1px solid black; */
+  display: block;
+  background-color: rgb(44, 46, 156);
+  width: 50%;
+  margin: 5px;
+  text-decoration: none;
+  color: antiquewhite;
+  border-radius: 15px;
+  font-size: 1.4rem;
+  padding: 5px;
+  margin:5px auto ;
+  box-shadow: 3px 3px 3px rgb(238, 227, 76);
+  transition: all 0.4s ease-in;
 }
-.post .cards td {
-  outline: none;
 
-  font-family: var(--font-3);
-  padding: 0 20px;
-  line-height: 1.5em;
+.edit:hover{
+  transform: scale(1.1,1.1);
 }
-.post .cards td {
-  font-family: var(--font-3);
-  font-weight: 600;
-}
+
 
 /* ----------------ads in your area css------------------- */
 
@@ -199,11 +220,15 @@
   z-index: -1;
   opacity: 0.4;
   background-repeat: no-repeat;
+  /* border-radius: 5px; */
+  /* box-shadow: 3px 3px 1px red; */
   overflow: hidden;
 }
 
 .profile .card3 {
-  border: 2px solid red;
+  border-left: 2px solid rgb(170, 17, 17);
+  border-top: 2px solid rgb(117, 15, 15);
+  box-shadow: 2px 2px 6px rgb(107, 9, 9);
   margin: 10px;
   height: auto;
   box-sizing: border-box;
