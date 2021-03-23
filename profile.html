@@ -12,6 +12,7 @@
   <link rel="stylesheet" href="./CSS/utils.css" />
   <link rel="stylesheet" href="./CSS/style.css" />
   <link rel="stylesheet" href="./CSS/profile-page.css" />
+  <link rel="stylesheet" href="./CSS/profile-mobile.css">
 
   <title>Website Protoype</title>
 </head>
@@ -20,7 +21,7 @@
   <section>
     <div class="top-section">
       <div class="site-id">
-        <img src="./img/logo.png" alt="logo" />
+        <img src="./img/logo-kishamitra.png" alt="logo" />
         <span class="p-heading">
           <a href="./index.html" style="text-decoration: none">KishanMitra</a>
         </span>
@@ -28,11 +29,12 @@
       </div>
 
       <!-- ----Profile Section--------------- -->
-      <div class="profile-section">
-        <img src="./img/man.png" alt="" class="small-user-img" />
-        <a href="#" class="user-name">user-name</a>
-      </div>
+      <!-- <div class="profile-section">
+          <img src="./img/man.png" alt="" class="small-user-img" />
+          <a href="./profile.html" class="user-name" style="text-decoration: none;">user-name</a>
+      </div> -->
     </div>
+
   </section>
 
   <section class="dashboard">
@@ -74,7 +76,7 @@
 
           <div class="user-face">
             <div class="identity">
-              <img src="" alt="" id="user-image"/>
+              <img src="./img/mypic_with_pink.png" alt="" id="user-image" />
               <!-- <input type="file" name='profile-pic' id="profile-pic" /> -->
             </div>
 
@@ -118,12 +120,12 @@
                 <label for="Email">Email</label>
                 <input type="email" value="Piyush@kishanmitra@gmail.com" readonly />
               </div>
-            <!-- </form> -->
+              <!-- </form> -->
 
-            <!-- -----------Address Information ----------- -->
-            <h2>Business Location</h2>
-            <hr class="hr-small" />
-            <!-- <form action=""> -->
+              <!-- -----------Address Information ----------- -->
+              <h2>Business Location</h2>
+              <hr class="hr-small" />
+              <!-- <form action=""> -->
               <div class="form-item">
                 <label for="State">State</label>
                 <input type="text" value="" readonly />
@@ -145,7 +147,7 @@
               </div>
             </form>
           </div>
-          <button type="submit" class="btn" id="profile-detail-submit" style="display: none;" >Save Info</button>
+          <button type="submit" class="btn" id="profile-detail-submit" style="display: none;">Save Info</button>
         </div>
       </div>
 
@@ -181,7 +183,7 @@
 
       <!-- -----Advertisement Section--------- -->
 
-      <div class="content-item fadeout" id="content-item-3" >
+      <div class="content-item fadeout" id="content-item-3">
         <div class="Advertisement">
           <h1>Create Your Advertisement </h1>
           <hr class="hr-small hr-small-1">
@@ -299,9 +301,59 @@
               <button type="submit" class="btn btn1">Disable Post</button>
 
             </div>
+            <div class="post" id="post1">
+              <p class="audience">For Buyers</p>
+              <hr class="hr-small">
+
+              <div class="ad-details">
+                <p class="ad-crop-quantity" id="crop-display">
+                  Crop-name
+                </p>
+                <p class="ad-crop-quantity" id="quantity-display">
+                  quantity
+                </p>
+              </div>
+              <p id="user-message-ad">
+                Lorem ipsum dolor sit amet consectetur.
+              </p>
+              <div class="user-details">
+                <p class="creator-name">Enter User Name </p>
+                <div class="address-details">
+                  <img src="./img/address.svg" alt="address">
+                  <p id="user-address">Lorem ipsum dolor sit.</p>
+                </div>
+              </div>
+              <button type="submit" class="btn btn1">Disable Post</button>
+
+            </div>
+            <div class="post" id="post1">
+              <p class="audience">For Buyers</p>
+              <hr class="hr-small">
+
+              <div class="ad-details">
+                <p class="ad-crop-quantity" id="crop-display">
+                  Crop-name
+                </p>
+                <p class="ad-crop-quantity" id="quantity-display">
+                  quantity
+                </p>
+              </div>
+              <p id="user-message-ad">
+                Lorem ipsum dolor sit amet consectetur.
+              </p>
+              <div class="user-details">
+                <p class="creator-name">Enter User Name </p>
+                <div class="address-details">
+                  <img src="./img/address.svg" alt="address">
+                  <p id="user-address">Lorem ipsum dolor sit.</p>
+                </div>
+              </div>
+              <button type="submit" class="btn btn1">Disable Post</button>
+
+            </div>
           </div>
 
-        
+
           <hr class="hr-small">
           <h3>Suspended Post</h3>
           <hr class="hr-small-1">

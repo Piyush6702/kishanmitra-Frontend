@@ -1,61 +1,68 @@
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <title> Registration Form </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400;500&family=Comfortaa&family=Raleway:wght@500&display=swap"
+        rel="stylesheet">
+    <title>Registration Page</title>
+    <link rel="stylesheet" href="./CSS/register.css">
     <link rel="stylesheet" href="./CSS/style.css">
-    <link rel="stylesheet" href="./CSS/utils.css">
-    <link rel="stylesheet" href="./CSS/login-register.css">
 </head>
-
 <body>
-    <div class="login-register-intro">
-        <img src="./img/logo.png" alt="">
+    <div class="register-box">
+        <div class="left">
+            <img src="./img/logo-kishamitra.png" class="avatar">
+            <div class="greeting-text">
+                <span>KishanMitra</span><br>
+                <p>We are very Grateful to have You On Board ! Please Register And Enjoy
+                    All
+                    the Facilities and Increase your income
+                </p>
+            </div>
+        </div>
+        <div class="right">
+            <div class="top">
+                <!-- <img src="./img/profile-avatar.png" class="avatar"> -->
+                <h1>Join Our Family | Register Now</h1>
+            </div>
+            <form action="" class="data">
+                <label for="" class="all">Name:</label><br>
 
-        <div class="greeting-text">
-            <p>
-                <span>KishanMitra</span><br>We are very Grateful to have You On Board !<br> PLease Register And Enjoy
-                All
-                the Facilities and Increase your income
-            </p>
+                <input type="text" name="username" id="name" placeholder="Your Name"><br><br>
+
+                <label for="" class="all">Mobile Number:</label><br>
+
+                <input type="number" name="Mnum" id="num" placeholder="Enter Mobile Number"><br><br>
+
+                <label for="" class="all">Email:</label><br>
+
+                <input type="Email" name="mail" id="mail" placeholder="Enter Your Email"><br><br>
+
+                <label for="" class="all">Password:</label><br>
+
+                <input type="password" name="password" id="pass" placeholder="Your Password"><br><br>
+
+                <label for="" name="1" class="all">Gender&nbsp:</label>
+
+                &nbsp <input type="radio" name="1" class="all">&nbsp Male &nbsp<input type="radio" name="1"
+
+                    class="all">&nbsp Female <br><br>
+
+    
+                <label for="" class="all">Category :&nbsp</label>
+                &nbsp <input type="radio" name="about" value="farmer">&nbsp Farmer &nbsp<input type="radio"
+                    name="about" value="retailer">&nbsp Retailer<br><br>
+                
+                <div class="btn" id="register-btn">
+                    <input type="submit" name="submit" value="Submit">
+                    <input type="reset" name="submit" value="Reset" >
+                </div>
+
+            </form>
         </div>
     </div>
-    <div class="register-box">
-        <img src="./img/profile-avatar.png" class="avatar">
-        <h1>Join Our Family | Register Now</h1>
-        <form>
-            <label for="" class="all">Username</label><br>
-            <input type="text" name="username" id="name" placeholder="Your Name"><br><br>
-            <label for="" class="all">Mobile Number:</label><br>
-            <!-- <select name="" id="ph">
-                    <option value="">+91</option>
-                    <option value="">+92</option>
-                    <option value="">+93</option>
-                    <option value="">+94</option>
-                    <option value="">+95</option>
-                </select> -->
-            <input type="number" name="Mnum" id="num" placeholder="Enter Mobile Number"><br><br>
-            <!-- <label for="">Password:</label> -->
-            <label for="" class="all">Email:</label><br>
-            <input type="Email" name="mail" id="mail" placeholder="Enter Your Email"><br><br>
-            <label for="" class="all">Create Password:</label><br>
-            <input type="password" name="password" id="pass" placeholder="Your Password"><br><br>
-            <!-- <label for="" class="all">Re-enter Password:</label><br>
-                <input type="password" name="Rpassword" id="Rpass" placeholder="Re-enter Your Password"><br><br> -->
-            <label for="" name="1" class="all">Gender&nbsp:&nbsp</label>
-            &nbsp <input type="radio" name="1" class="all">Male:&nbsp &nbsp<input type="radio" name="1"
-                class="all">Female:&nbsp&nbsp<input type="radio" name="1" class="all">Other:&nbsp<br><br>
-
-            <label for="" class="all">Who you are :&nbsp</label>
-            &nbsp <input type="radio" name="about">Farmer:&nbsp&nbsp<input type="radio"
-                name="about">Retailer:&nbsp<br><br>
-
-            <input type="submit" name="submit" value="Register" class="btn">
-            <input type="reset" name="submit" value="Reset" class="btn">
-        </form>
-
-
-    </div>
-
 </body>
-
 </html>

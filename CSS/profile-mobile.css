@@ -1,0 +1,266 @@
+.top-section {
+  margin: 5px;
+}
+
+/* ===========media -query ==================== */
+
+@media screen and (max-width: 1024px) {
+  .side-bar-items a {
+    font-size: 1.1rem;
+    margin-left: 3px;
+    margin-right: 3px;
+  }
+  .side-bar {
+    min-width: 260px;
+    height: fit-content;
+    margin: 12px 1px;
+  }
+
+  .side-bar-items img {
+    max-width: 45px;
+    max-height: 40px;
+    margin: 0px 10px;
+    width: 30%;
+  }
+  .form-item input,
+  select {
+    width: 40%;
+    padding: 10px;
+    align-items: flex-end;
+    margin-right: 2px;
+    font-size: 1.2rem;
+    outline: none;
+    border: 2px solid black;
+    border-radius: 15px;
+    color: rgb(59, 177, 59);
+    box-shadow: 1px 1px 8px rgb(139, 177, 65);
+  }
+
+  .form-item ::placeholder,
+  select option {
+    font-size: 1rem;
+    font-family: var(--font-3);
+    color: darkgreen;
+  }
+
+  .form-item label {
+    font-size: 1.2rem;
+    font-family: var(--font-3);
+    margin: 0px;
+    padding-right: 12px;
+  }
+
+  .btn {
+    width: 30%;
+  }
+}
+
+@media screen and (max-width: 868px) {
+  .side-bar {
+    width: fit-content;
+    height: fit-content;
+    margin: 12px 1px;
+  }
+
+  .form-item input,
+  select {
+    width: 50%;
+    padding: 10px;
+    /* align-items: flex-end; */
+    margin-right: 2px;
+    font-size: 1.2rem;
+  }
+
+  .current-new-password .form-item label {
+    font-size: 1.1rem;
+    padding: 0px;
+  }
+
+  .confirm-type h2 {
+    font-size: 1.4rem;
+  }
+
+  #crop-unit {
+    /* min-width: 10%; */
+    width: 80px;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .dashboard {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 5px;
+  }
+
+  .side-bar {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* align-items: flex-start; */
+    width: fit-content;
+    height: auto;
+    margin: 10px auto;
+    padding: 5px 0px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid;
+    box-shadow: 1px 1px 4px 0px black;
+    background-color: white;
+  }
+
+  .side-bar-items {
+    width: 160px;
+    /* width: 70%; */
+    height: max-content;
+    padding: 3px;
+    margin: 5px 3px;
+
+    /* border: 2px solid brown; */
+    background-color: rgb(255, 205, 205);
+  }
+
+  .content {
+    position: relative;
+    width: 90%;
+    height: max-content;
+    border: 1px solid;
+    overflow: hidden;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 1px 1px 4px 0px black;
+    background-color: white;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .form-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    /* align-items: center; */
+    width: 100%;
+    padding: 10px;
+  }
+
+  .form-item label {
+    width: 90%;
+    margin: 5px 0px;
+  }
+
+  .form-item input,
+  select {
+    min-width: 70%;
+    width: 90%;
+    margin: 5px 10px;
+    align-self: flex-end;
+  }
+
+  .btn {
+    min-width: 40%;
+  }
+
+  #edit-info-btn {
+    width: 50px;
+  }
+
+  .Manage-activities {
+    padding: 10px 4px;
+    width: 100%;
+  }
+
+  .post {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    width: 100%;
+    margin: 5px 0px;
+  }
+
+  .btn1 {
+    width: 70%;
+  }
+
+  .confirm-type div {
+    justify-self: center;
+  }
+
+  .Advertisement h1 {
+    font-size: 1.4rem;
+    text-align: center;
+    color: darkgreen;
+}
+
+.confirm-type {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+
+}
+
+.edit-info {
+    width: auto;
+    align-self: flex-end;
+    margin-right: 5px;
+}
+}
+
+@media screen and (max-width: 425px) {
+  .confirm-type h2 {
+    font-size: 1.2rem;
+  }
+
+  .confirm-type label {
+    font-size: 1rem;
+  }
+
+
+.identity img {
+  min-width: 100px;
+  min-height: 100px;
+  border: 1px solid;
+  margin: 0px 10px;
+}
+
+.btn {
+    min-width: 45%;
+}
+
+}
+
+@media screen and (max-width: 375px) {
+
+.side-bar-items {
+    width: 200px;
+    /* width: 70%; */
+    height: max-content;
+    padding: 3px;
+    margin: 5px 3px;
+    /* border: 2px solid brown; */
+    background-color: rgb(255, 205, 205);
+}
+
+    .form-item input,
+  select {
+    min-width: 70%;
+    width: 100%;
+    margin: 5px auto;
+    align-self: center;
+  }
+
+  #edit-info-btn {
+    width: 50px;
+    /* align-self: flex-end; */
+    margin-right: 5px;
+    font-size: 1rem;
+}
+
+
+}
+
+
