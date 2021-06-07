@@ -28,7 +28,7 @@ body {
 
 .register-box {
   border: 0.2px solid rgb(255, 227, 227);
-  width: 75%;
+  width: 85%;
   height: 90vh;
   margin: 50px auto;
   font-family: var(--nunito);
