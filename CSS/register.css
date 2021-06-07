@@ -4,9 +4,24 @@
   box-sizing: border-box;
 }
 
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito&family=Poppins&display=swap");
+
+* {
+  --light-green: rgb(144, 238, 144);
+  --mid-green: rgb(11, 218, 81);
+  --dark-green: rgb(34, 139, 34);
+  --mid2-green: #00693e;
+
+  --name-font: "Poppins", sans-serif;
+  --font-2: "Baloo Bhai 2", cursive;
+  --font-3: "Comfortaa", cursive;
+  --font-4: "Montserrat", sans-serif;
+  --nunito: "Nunito", sans-serif;
+}
+
 body {
   background-image: url(../img/register-bg.jpg);
-
 }
 
 /* ------------register box ----------------- */
@@ -16,6 +31,7 @@ body {
   width: 75%;
   height: 90vh;
   margin: 50px auto;
+  font-family: var(--nunito);
   /* justify-self: center; */
   display: flex;
   /* flex-wrap: inherit; */
@@ -123,9 +139,10 @@ input[type="number"] {
   color: green;
   font-family: var(--font-4);
   font-size: 1.2rem;
-  padding: 4px 10px;
+  padding: 10px;
   margin: 15px auto;
   margin-bottom: 10px;
+
 }
 
 .right .data .all {
@@ -355,7 +372,7 @@ input[type="number"] {
     font-size: 1.1rem;
     font-weight: bold;
     font-family: var(--font-4);
-}
+  }
 }
 
 @media screen and (max-width: 435px) {
