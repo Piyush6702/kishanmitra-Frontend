@@ -92,6 +92,7 @@
     flex-direction: column;
     justify-content: space-between;
     padding: 5px;
+    border: none;
   }
 
   .side-bar {
@@ -105,30 +106,39 @@
     padding: 5px 0px;
     justify-content: center;
     align-items: center;
-    border: 1px solid;
+    border: 0px solid;
     box-shadow: 1px 1px 4px 0px black;
     background-color: white;
   }
 
+
+
   .side-bar-items {
-    width: 160px;
+    
+    width: fit-content;
     /* width: 70%; */
     height: max-content;
-    padding: 3px;
-    margin: 5px 3px;
-
+    padding: 3px 5px;
+    margin: 5px;
+   
     /* border: 2px solid brown; */
+    border-radius: 5px;
     background-color: rgb(255, 205, 205);
+  }
+
+  .side-bar-items a{
+     font-size: 14px;
+
   }
 
   .content {
     position: relative;
-    width: 90%;
+    width: 100%;
     height: max-content;
     border: 1px solid;
     overflow: hidden;
     margin: 10px auto;
-    padding: 10px;
+    padding: 10px 5px;
     background-color: white;
     box-shadow: 1px 1px 4px 0px black;
     background-color: white;
@@ -136,6 +146,27 @@
 }
 
 @media screen and (max-width: 600px) {
+
+  .side-bar{
+    width: 100%;
+    justify-content: space-evenly;
+   
+  }
+  .side-bar-items img{
+    width: 50px;
+    height:50px;
+  }
+  .side-bar-items{
+    padding: 4px;
+  }
+  .side-bar-items p{
+    display: none;
+    transition: all 1s ease-in;
+  }
+
+
+
+
   .form-item {
     display: flex;
     flex-direction: column;
@@ -211,6 +242,10 @@
 }
 
 @media screen and (max-width: 425px) {
+  .side-bar-items img{
+    width: 35px;
+    height:35px;
+  }
   .confirm-type h2 {
     font-size: 1.2rem;
   }
@@ -221,8 +256,8 @@
 
 
 .identity img {
-  min-width: 100px;
-  min-height: 100px;
+  width: 120px;
+  height:120px;
   border: 1px solid;
   margin: 0px 10px;
 }
@@ -234,21 +269,23 @@
 }
 
 @media screen and (max-width: 375px) {
-
-.side-bar-items {
-    width: 200px;
-    /* width: 70%; */
-    height: max-content;
-    padding: 3px;
-    margin: 5px 3px;
-    /* border: 2px solid brown; */
-    background-color: rgb(255, 205, 205);
-}
-
-    .form-item input,
-  select {
-    min-width: 70%;
+  .basic-info form {
     width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+  .side-bar-items img{
+    width: 30px;
+    height:30px;
+  }
+  .side-bar-items{
+    margin: 3px;
+  }
+
+  .form-item input,
+  select {
+    
+    min-width: 100% !important;
     margin: 5px auto;
     align-self: center;
   }

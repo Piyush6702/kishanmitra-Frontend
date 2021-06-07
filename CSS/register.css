@@ -6,6 +6,7 @@
 
 body {
   background-image: url(../img/register-bg.jpg);
+
 }
 
 /* ------------register box ----------------- */
@@ -13,8 +14,9 @@ body {
 .register-box {
   border: 0.2px solid rgb(255, 227, 227);
   width: 75%;
-  height: 100%;
-  margin: 30px auto;
+  height: 90vh;
+  margin: 50px auto;
+  /* justify-self: center; */
   display: flex;
   /* flex-wrap: inherit; */
   border-radius: 20px;
@@ -122,7 +124,8 @@ input[type="number"] {
   font-family: var(--font-4);
   font-size: 1.2rem;
   padding: 4px 10px;
-  margin: 5px auto;
+  margin: 15px auto;
+  margin-bottom: 10px;
 }
 
 .right .data .all {
@@ -187,8 +190,7 @@ input[type="number"] {
 @media screen and (max-width: 1024px) {
   .register-box {
     border: 0.2px solid rgb(255, 227, 227);
-    width: 80%;
-    height: 100%;
+
     margin: 30px auto;
     display: flex;
     /* flex-wrap: inherit; */
@@ -287,7 +289,7 @@ input[type="number"] {
 @media screen and (max-width: 691px) {
   .register-box {
     border: 0.2px solid rgb(255, 227, 227);
-    width: 80%;
+    width: 90%;
     height: 100%;
     margin: 30px auto;
     display: flex;
@@ -413,8 +415,8 @@ input[type="number"] {
     height: auto;
     color: green;
     font-family: var(--font-3);
-    font-size: 1.2rem;
-    padding: 4px 10px;
+    font-size: 1rem;
+    padding: 10px 5px;
     margin: 5px auto;
   }
 

@@ -1,5 +1,5 @@
 // dasboard-functionality
-document.querySelectorAll('.side-bar-items a').forEach((link)=>{
+document.querySelectorAll('.side-bar-items').forEach((link)=>{
     link.addEventListener('click',()=>{
 
         let clickedlink=link.getAttribute('href');
@@ -29,3 +29,6 @@ document.querySelector('#edit-info-btn').addEventListener('click',()=>{
     document.querySelector('#profile-image-change').style.display='flex'
 
 });
+
+
+// =============
